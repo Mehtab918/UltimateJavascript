@@ -50,3 +50,18 @@ console.log(PI); // 3.14
 
    // const name; 
   // Uncaught SyntaxError: Missing initializer in const declaration 
+
+
+//   let author = "ankit";
+
+//   author = "subhash";   // can be reassigned but not redeclared
+
+//   let author = "manoj" // throws an error because author is already declared . It can not be redeclared .
+
+  let g = 10;
+  {
+    let g= 100;
+    console.log(a); // 100
+  }
+
+console.log(g); // 10 not 100 because let keyword is block scope.  whatever is defined inside the block is not accessible outside the block.
