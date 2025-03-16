@@ -1,0 +1,14 @@
+#variables
+-------------------
+What is the difference between `let`, `const`, and `var` in JavaScript?
+
+    var keyword is used before ES6 to declare variables. It has function scope and global scope. It can be reassigned and redeclared.
+    let keyword is used in ES6 to declare variables. It has block scope and local scope. It can be reassigned but not redeclared.
+    const keyword is used in ES6 to declare constants. It has block scope and local scope. It cannot be reassigned or redeclared.
+
+    In summary, var is a global scope, let is a block scope, and const is a block scope with constant value.
+
+Javascript is a case sensitive language.
+    // Mehtab and mehtab are two different variables.
+    // Mehtab and mehtab are two different constants.
+    
