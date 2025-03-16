@@ -1,0 +1,49 @@
+var x = 10;
+var y = null;
+var a = true;
+var b = Symbol;
+var c = undefined;
+
+
+console.log(b);
+
+{
+    var x = 20;
+    console.log(x);  // 20 
+}
+
+console.log(x); // 20 . 
+
+// var keyword is global scope and not safe . it can be accessed from anywhere in the code .
+
+
+let z="Mehtab";
+{
+    z ="John";
+    console.log(z);  // john
+}
+
+console.log(z); // Mehtab
+
+
+
+// const keyword is block scope and it can be accessed only inside the block it is defined .
+const PI = 3.14;
+
+console.log(PI); // 3.14
+
+// PI = 3; // error . const keyword can not be reassigned .
+// const keyword is used to define constants . it can not be reassigned .
+     // PI =3; // thrown an error because PI is a constant .
+      console.log(PI); // 3.14
+
+    {
+        const author ="Mehtab";
+        console.log(author); // Mehtab
+
+    }
+    
+   // console.log(author); // Mehtab . const keyword is local and block based scope . it can be accessed only inside the block it is defined .    
+
+
+      
