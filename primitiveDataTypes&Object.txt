@@ -1,0 +1,19 @@
+Primitive Data Types and Objects
+-------------------------------
+7 datatypes in JavaScript: string, number, boolean, null, undefined, symbol, and object.
+
+Objects are a collection of key-value pairs, where the keys are strings and the values can be any data type.
+
+N = null
+N = number
+B = boolean
+B = bigInt
+S = symbol
+S = string
+U = undefined
+O = object
+
+In JavaScript, we can use the typeof operator to check the data type of a variable.
+
+
+
