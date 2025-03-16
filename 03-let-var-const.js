@@ -46,4 +46,7 @@ console.log(PI); // 3.14
    // console.log(author); // Mehtab . const keyword is local and block based scope . it can be accessed only inside the block it is defined .    
 
 
-      
+  //const keyword must be initialized with a value . if not initialized it will throw an error .
+
+   // const name; 
+  // Uncaught SyntaxError: Missing initializer in const declaration 
