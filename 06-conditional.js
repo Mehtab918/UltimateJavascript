@@ -28,6 +28,24 @@ if (voterAge < 10) {
 
 console.log("Done");
 
+// write a program to compare which is greater between two numbers using if else statement.
+
+ let num1 = 20;
+ let num2= 30;
+
+ if(num1> num2)
+ {
+  console.log(num1 + " is greater than " + num2);
+ }
+ else if(num2> num1)
+ {
+  console.log(num2 + " is greater than " + num1);
+ }
+ else{
+  console.log(num1 + " and " + num2 + " are equal");
+ }
+
+
 /*
 
 if elese if else statement = if conndition is true then execute the if block statemnt , else if condition is true then execute the else if block
