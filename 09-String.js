@@ -94,7 +94,7 @@ console.log(str4);
 
 let person = "Ankit";  // String literals 
 
-console.log(typeof person);
+console.log(typeof person); // string 
 
 let person1 = new String("Ankit");   // String using new operator 
 console.log(typeof person1);   // object 
