@@ -92,11 +92,11 @@ console.log(str4);
 //String as a object 
 // we can create a string using new operator
 
-let person = "Ankit";
+let person = "Ankit";  // String literals 
 
 console.log(typeof person);
 
-let person1 = new String("Ankit");
+let person1 = new String("Ankit");   // String using new operator 
 console.log(typeof person1);   // object 
 
 console.log(person == person1); //true
