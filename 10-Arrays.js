@@ -91,9 +91,9 @@ console.log(arr2[3]);
 console.log(arr2[4]);
 
 //for loop
-for(let i=0; i<arr2.length;i++)
+for(let i=0; i<arr2.length;i++){
     console.log(arr[i]);
-
+}
 //forEach method
 
 console.log("********");
@@ -224,7 +224,6 @@ let arr1 = [1,2,3,4,5];
 num.length; // 5
 
 
-
 delete arr1[2];
 
 console.log(arr1);
@@ -254,8 +253,6 @@ console.log(arr4); // [5, 7, 8, 9] - original array remains unchanged.
 
 
 console.log(arr3,arr4); // [1, 2, 4, 6] [5, 7, 8, 9] - original arrays remain unchanged.
-
-
 
 //interview question on sort() 
 
@@ -338,3 +335,23 @@ console.log(newUsers);
 let num7 = [22,323,45,54,65,52];
 
 console.log(num7.slice(2,4)); // [45,54]  - num7.slice(3,4);
+
+
+
+//forEach() - A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.
+
+let arr7 = [1,2,3,4,5];
+
+arr7.forEach((x)=>console.log(x*2));
+
+
+const coding = ["js","javascript","ruby", "c++"]
+
+coding.forEach( (items) =>  console.log(items.toUpperCase()));
+
+// if we return anything from the forEach method, it will be give you undefined,
+
+let values = coding.forEach( (items) =>  console.log(items.toUpperCase()));
+console.log(values);  //undefined,
+
+
