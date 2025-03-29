@@ -62,9 +62,12 @@ let a1 = a.map((value,index,array) => { console.log(value*2 , index ,array)});
 console.log(a1); 
 
 
-//filter() = ek naya array create krta hai .
+//filter() = ek naya array create krta hai .  ye har value pe boolean expresion  chalata hai ,agar ye true return krta hai toh ye element add krdega.
 // - first parameter is a function that takes each element of the array as an argument.
 // second parameter is optional but it return an index of the element.  
+
+
+// It filters an array with values that pass a test. It returns a new array containing only the elements that pass the test.
 
 const myNums = [1,2,3,4,5,6,7,8,9,10];
 
@@ -81,3 +84,31 @@ let a4 = myNums.filter((nums) => {
 
 console.log(a4); // [] 
 //this will give EMPTY ARRAY as a value because we are not returning anything in the filter function. if we use open close curly braces we need to use return keyword.
+
+// MAP and FILTER both will change the original array.
+
+
+//reduce() - reduces an array to a single value.
+
+let arr6 = [3,4,5,6,7];
+
+let arr6Result = arr6.reduce((h1,h2) => {
+
+    return h1+h2;
+})
+
+console.log(arr6Result);
+
+//or  i can pass a function as a parameter to reduce function.
+
+let arr7 = [3,4,5,6,7];
+
+let singleValueReturn = (h1,h2) =>
+{
+    return h1 - h2;
+}
+
+let result7 = arr7.reduce(singleValueReturn);
+
+console.log(result7);
+

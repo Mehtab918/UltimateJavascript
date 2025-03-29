@@ -339,6 +339,7 @@ console.log(num7.slice(2,4)); // [45,54]  - num7.slice(3,4);
 
 
 //forEach() - A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.
+// calls a function for each element in the array.
 
 let arr7 = [1,2,3,4,5];
 
@@ -355,3 +356,15 @@ let values = coding.forEach( (items) =>  console.log(items.toUpperCase()));
 console.log(values);  //undefined,
 
 
+// map func    - map function returns a new array .
+
+let arr8 = [2,4,6,8,10];
+
+arr8Result =arr8.map(function x(element) {
+    return element * 2;
+})
+
+console.log(arr8Result);
+
+// or 
+resultSaome =  arr8.map((x) => x * 2);

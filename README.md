@@ -74,6 +74,18 @@ Array methods : push(), pop(), shift(), unshift(), reverse(), sort(), splice(), 
 
 sort() method sorts the elements of an array in ascending or descending order. It takes a compare function as an argument. array.sort() will sort the array based on coverting the elements to strings. 
 
+Higher order functions : map(), filter(), reduce(), etc,
+
+reduce : 
+- The reduce() method executes a reducer function for array element.
+
+- The reduce() method returns a single value: the function's accumulated result.
+
+- The reduce() method does not execute the function for empty array elements.
+
+- The reduce() method does not change the original array.
+
+
 # Object
 
 Object is a collection of key-value pairs, where the keys are strings and the values can be any data type.
