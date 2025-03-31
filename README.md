@@ -86,6 +86,23 @@ reduce :
 - The reduce() method does not change the original array.
 
 
+# Advantages of using sseparate script tag using external JavaScript file( src attribute): 
+- separation of concerns
+- easy to debug
+- Browser Caching.
+
+2 ways of writing JavaScript code:
+- Inline JavaScript
+- External JavaScript file
+
+# FIRST CLASS FUNCTION:
+- A function is a first-class citizen in JavaScript.
+<!-- first class functions -->
+first class functions are the functions that can be :
+- assigned to a variable
+- returned by another function
+- passed/assigned as a value to a variable , or object or array
+
 # Object
 
 Object is a collection of key-value pairs, where the keys are strings and the values can be any data type.

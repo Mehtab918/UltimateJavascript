@@ -1,0 +1,6 @@
+//console.log(console); // returns the console object
+//console.warn("This is a warning message"); // returns a warning message in the console.
+//console.error("This is an error message"); // returns an error message when an error occurs.
+//console.assert(55>67); //assertion failed.
+console.assert(typeof 55 === typeof 55); // assertion passed. and nothing will be logged in the console.
+console.clear();
