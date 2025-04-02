@@ -107,6 +107,23 @@ first class functions are the functions that can be :
 
 Object is a collection of key-value pairs, where the keys are strings and the values can be any data type.
 
+# console object 
+
+- console.log(console); // returns the console object
+- console.warn("This is a warning message"); // returns a warning message in the console.
+- console.error("This is an error message"); // returns an error message when an error occurs.
+- console.assert(55>67); //assertion failed. It will log the message in the console - "Assertion failed: 55 > 67"
+- console.table(obj); // return a tabular representation of the object in index and value format.
+
+# Window object 
+    - The window object is supported by all browsers. It represents the browser's window.
+
+    - All global JavaScript objects, functions, and variables automatically become members of the window object.
+
+    - Global variables are properties of the window object.
+
+    - Global functions are methods of the window object.
+
 # Map
 
 Map is a collection of key-value pairs, where the keys can be any data type and the values can be any data type.

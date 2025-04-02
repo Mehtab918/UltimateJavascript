@@ -1,6 +1,30 @@
 //console.log(console); // returns the console object
 //console.warn("This is a warning message"); // returns a warning message in the console.
 //console.error("This is an error message"); // returns an error message when an error occurs.
-//console.assert(55>67); //assertion failed.
+
+
+//console.assert(55>67); //assertion failed. It will log the message in the console - "Assertion failed: 55 > 67"
 console.assert(typeof 55 === typeof 55); // assertion passed. and nothing will be logged in the console.
 console.clear();
+
+const obj = {name: "John", age: 30, "job": "developer", "salary": 50000};
+
+console.table(obj);
+
+console.table(console);
+
+console.time("fetchData");
+for(let i=0; i<5;i++)
+{
+    console.log(100);
+}
+console.timeEnd("fetchData");
+
+console.time("fetchData");
+ let i = 0;
+ while(i<5)
+ {
+     console.log(100);
+     i++;}
+     
+console.timeEnd("fetchData");

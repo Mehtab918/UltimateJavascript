@@ -21,3 +21,9 @@ let WishingGreet = function greet(name)
 
 console.log(WishingGreet("mehtab")); // poc = variable name can be treated as a function name and called as a function.
 
+
+
+//  we can return a function from another function:
+
+function 
+
