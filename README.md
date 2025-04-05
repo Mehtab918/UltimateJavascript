@@ -124,6 +124,21 @@ Object is a collection of key-value pairs, where the keys are strings and the va
 
     - Global functions are methods of the window object.
 
+
+# DOM (Document Object Model)
+
+
+-JavaScript can change all the HTML elements in the page.
+-JavaScript can change all the HTML attributes in the page.
+-JavaScript can change all the CSS styles in the page.
+-JavaScript can remove existing HTML elements and attributes.
+-JavaScript can add new HTML elements and attributes.
+-JavaScript can react to all existing HTML events in the page.
+-JavaScript can create new HTML events in the page.
+
+The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
+
+
 # Map
 
 Map is a collection of key-value pairs, where the keys can be any data type and the values can be any data type.

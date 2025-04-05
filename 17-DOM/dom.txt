@@ -1,0 +1,7 @@
+DOM stands for Document Object Model.
+
+A document object is created when an HTML document is loaded in the browser.
+
+The root element for an HTML document is called as document object.
+
+The document object which offers proerties and methods for including dynamic content on a webpage.
