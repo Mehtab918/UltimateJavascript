@@ -8,8 +8,6 @@ console.log("Welcome to learn JS : " + a);
 // left side is identifiers
 // = is assignment operator
 
-const { log } = require("console");
-const { stringify } = require("querystring");
 
 console.log(45);
 var a = 20;
@@ -40,7 +38,7 @@ let x = "Hello";
 console.log(x);
 
 x = 25; // changing the value of x.
-console/log(x);   // new value of x is 25.
+console.log(x);   // new value of x is 25.
 
 // Javascipt is a smart language which can change the value of variable at run time.
 
@@ -55,3 +53,4 @@ console/log(x);   // new value of x is 25.
 // 
   
 // variables cannot be start with number . 
+

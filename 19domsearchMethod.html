@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom seach method - matches , closest and contains</title>
+</head>
+<body>
+    <div class="box"  id="id1"></div>
+    <div class="box" id="id2"></div>
+
+    <ul id="birds">
+        <li>Orange-winged parrot</li>
+        <li class="endangered">Philippine eagle</li>
+        <li>Great white pelican</li>
+      </ul>
+      
+
+      <div class ="paragraph-section">
+        <p>This is p1</p>
+        <p>This is p2 </p>
+        <p>This is p3 </p>
+        <p>This is p4</p>
+      </div>
+
+
+      <article>
+        <div id="div-01">
+          Here is div-01
+          <div id="div-02">
+            Here is div-02
+            <div id="div-03">Here is div-03</div>
+          </div>
+        </div>
+      </article>
+      
+
+      <div class ="container" id="box"> 
+        This is container.
+        <span class="span1" id ="sp1">This is span .</span>
+      </div>
+      <script>
+        const box1 = document.getElementById("box");
+        console.log(box1);
+        // matches() will always take selector - if css selector found or match in box1 will return true either false .
+
+        console.log(box1.matches('#box')); // true
+        console.log(box1.matches('.container'));//true
+
+        console.log(box1.matches('div')); //true
+
+       // closest()
+       let span1 = document.getElementById('sp1');
+        console.log(span1.closest('#sp1'));
+        
+      </script>
+    <script src="/19-matches_closest_contains_method.js"></script>
+</body>
+</html>
